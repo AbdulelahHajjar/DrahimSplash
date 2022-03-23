@@ -1,0 +1,424 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 55;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		EBEE149927EA7534000B94A8 /* DrahimSplashApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = EBEE149827EA7534000B94A8 /* DrahimSplashApp.swift */; };
+		EBEE149B27EA7534000B94A8 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = EBEE149A27EA7534000B94A8 /* ContentView.swift */; };
+		EBEE149D27EA7535000B94A8 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = EBEE149C27EA7535000B94A8 /* Assets.xcassets */; };
+		EBEE14A027EA7535000B94A8 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = EBEE149F27EA7535000B94A8 /* Preview Assets.xcassets */; };
+		EBEE14A827EA7ABE000B94A8 /* Color+Extension.swift in Sources */ = {isa = PBXBuildFile; fileRef = EBEE14A727EA7ABE000B94A8 /* Color+Extension.swift */; };
+		EBEE14AA27EA7B43000B94A8 /* Image+Extension.swift in Sources */ = {isa = PBXBuildFile; fileRef = EBEE14A927EA7B43000B94A8 /* Image+Extension.swift */; };
+		EBEE14AF27EA7C2B000B94A8 /* CreditCardView.swift in Sources */ = {isa = PBXBuildFile; fileRef = EBEE14AE27EA7C2B000B94A8 /* CreditCardView.swift */; };
+		EBEE14B327EA8218000B94A8 /* CircleEffectView.swift in Sources */ = {isa = PBXBuildFile; fileRef = EBEE14B227EA8218000B94A8 /* CircleEffectView.swift */; };
+		EBEE14B827EA893A000B94A8 /* Constants.swift in Sources */ = {isa = PBXBuildFile; fileRef = EBEE14B727EA893A000B94A8 /* Constants.swift */; };
+		EBEE14BA27EA8B54000B94A8 /* ScatterdCreditCardsView.swift in Sources */ = {isa = PBXBuildFile; fileRef = EBEE14B927EA8B54000B94A8 /* ScatterdCreditCardsView.swift */; };
+		EBEE14BC27EA8C63000B94A8 /* CategoryView.swift in Sources */ = {isa = PBXBuildFile; fileRef = EBEE14BB27EA8C63000B94A8 /* CategoryView.swift */; };
+		EBEE14BE27EA9450000B94A8 /* ScatteredCategoriesView.swift in Sources */ = {isa = PBXBuildFile; fileRef = EBEE14BD27EA9450000B94A8 /* ScatteredCategoriesView.swift */; };
+		EBEE14C027EA993C000B94A8 /* Launch Screen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = EBEE14BF27EA993C000B94A8 /* Launch Screen.storyboard */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		EBEE149527EA7534000B94A8 /* DrahimSplash.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = DrahimSplash.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		EBEE149827EA7534000B94A8 /* DrahimSplashApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DrahimSplashApp.swift; sourceTree = "<group>"; };
+		EBEE149A27EA7534000B94A8 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
+		EBEE149C27EA7535000B94A8 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		EBEE149F27EA7535000B94A8 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		EBEE14A727EA7ABE000B94A8 /* Color+Extension.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Color+Extension.swift"; sourceTree = "<group>"; };
+		EBEE14A927EA7B43000B94A8 /* Image+Extension.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Image+Extension.swift"; sourceTree = "<group>"; };
+		EBEE14AE27EA7C2B000B94A8 /* CreditCardView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CreditCardView.swift; sourceTree = "<group>"; };
+		EBEE14B227EA8218000B94A8 /* CircleEffectView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CircleEffectView.swift; sourceTree = "<group>"; };
+		EBEE14B727EA893A000B94A8 /* Constants.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Constants.swift; sourceTree = "<group>"; };
+		EBEE14B927EA8B54000B94A8 /* ScatterdCreditCardsView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ScatterdCreditCardsView.swift; sourceTree = "<group>"; };
+		EBEE14BB27EA8C63000B94A8 /* CategoryView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CategoryView.swift; sourceTree = "<group>"; };
+		EBEE14BD27EA9450000B94A8 /* ScatteredCategoriesView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ScatteredCategoriesView.swift; sourceTree = "<group>"; };
+		EBEE14BF27EA993C000B94A8 /* Launch Screen.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = "Launch Screen.storyboard"; sourceTree = "<group>"; };
+		EBEE14C127EA9976000B94A8 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist; path = Info.plist; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		EBEE149227EA7534000B94A8 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		EBEE148C27EA7534000B94A8 = {
+			isa = PBXGroup;
+			children = (
+				EBEE149727EA7534000B94A8 /* DrahimSplash */,
+				EBEE149627EA7534000B94A8 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		EBEE149627EA7534000B94A8 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				EBEE149527EA7534000B94A8 /* DrahimSplash.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		EBEE149727EA7534000B94A8 /* DrahimSplash */ = {
+			isa = PBXGroup;
+			children = (
+				EBEE14C127EA9976000B94A8 /* Info.plist */,
+				EBEE14AB27EA7C07000B94A8 /* App */,
+				EBEE14AC27EA7C0F000B94A8 /* View */,
+				EBEE14A627EA7AB5000B94A8 /* Extensions */,
+				EBEE14B627EA8926000B94A8 /* Utilities */,
+			);
+			path = DrahimSplash;
+			sourceTree = "<group>";
+		};
+		EBEE149E27EA7535000B94A8 /* Preview Content */ = {
+			isa = PBXGroup;
+			children = (
+				EBEE149F27EA7535000B94A8 /* Preview Assets.xcassets */,
+			);
+			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		EBEE14A627EA7AB5000B94A8 /* Extensions */ = {
+			isa = PBXGroup;
+			children = (
+				EBEE14A727EA7ABE000B94A8 /* Color+Extension.swift */,
+				EBEE14A927EA7B43000B94A8 /* Image+Extension.swift */,
+			);
+			path = Extensions;
+			sourceTree = "<group>";
+		};
+		EBEE14AB27EA7C07000B94A8 /* App */ = {
+			isa = PBXGroup;
+			children = (
+				EBEE149827EA7534000B94A8 /* DrahimSplashApp.swift */,
+				EBEE149C27EA7535000B94A8 /* Assets.xcassets */,
+				EBEE149E27EA7535000B94A8 /* Preview Content */,
+				EBEE14BF27EA993C000B94A8 /* Launch Screen.storyboard */,
+			);
+			name = App;
+			sourceTree = "<group>";
+		};
+		EBEE14AC27EA7C0F000B94A8 /* View */ = {
+			isa = PBXGroup;
+			children = (
+				EBEE14AD27EA7C19000B94A8 /* Reusables */,
+				EBEE149A27EA7534000B94A8 /* ContentView.swift */,
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		EBEE14AD27EA7C19000B94A8 /* Reusables */ = {
+			isa = PBXGroup;
+			children = (
+				EBEE14AE27EA7C2B000B94A8 /* CreditCardView.swift */,
+				EBEE14B227EA8218000B94A8 /* CircleEffectView.swift */,
+				EBEE14B927EA8B54000B94A8 /* ScatterdCreditCardsView.swift */,
+				EBEE14BB27EA8C63000B94A8 /* CategoryView.swift */,
+				EBEE14BD27EA9450000B94A8 /* ScatteredCategoriesView.swift */,
+			);
+			path = Reusables;
+			sourceTree = "<group>";
+		};
+		EBEE14B627EA8926000B94A8 /* Utilities */ = {
+			isa = PBXGroup;
+			children = (
+				EBEE14B727EA893A000B94A8 /* Constants.swift */,
+			);
+			path = Utilities;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		EBEE149427EA7534000B94A8 /* DrahimSplash */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = EBEE14A327EA7535000B94A8 /* Build configuration list for PBXNativeTarget "DrahimSplash" */;
+			buildPhases = (
+				EBEE149127EA7534000B94A8 /* Sources */,
+				EBEE149227EA7534000B94A8 /* Frameworks */,
+				EBEE149327EA7534000B94A8 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = DrahimSplash;
+			productName = DrahimSplash;
+			productReference = EBEE149527EA7534000B94A8 /* DrahimSplash.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		EBEE148D27EA7534000B94A8 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1330;
+				LastUpgradeCheck = 1330;
+				TargetAttributes = {
+					EBEE149427EA7534000B94A8 = {
+						CreatedOnToolsVersion = 13.3;
+					};
+				};
+			};
+			buildConfigurationList = EBEE149027EA7534000B94A8 /* Build configuration list for PBXProject "DrahimSplash" */;
+			compatibilityVersion = "Xcode 13.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = EBEE148C27EA7534000B94A8;
+			productRefGroup = EBEE149627EA7534000B94A8 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				EBEE149427EA7534000B94A8 /* DrahimSplash */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		EBEE149327EA7534000B94A8 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				EBEE14C027EA993C000B94A8 /* Launch Screen.storyboard in Resources */,
+				EBEE14A027EA7535000B94A8 /* Preview Assets.xcassets in Resources */,
+				EBEE149D27EA7535000B94A8 /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		EBEE149127EA7534000B94A8 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				EBEE14BE27EA9450000B94A8 /* ScatteredCategoriesView.swift in Sources */,
+				EBEE14B327EA8218000B94A8 /* CircleEffectView.swift in Sources */,
+				EBEE149B27EA7534000B94A8 /* ContentView.swift in Sources */,
+				EBEE14BA27EA8B54000B94A8 /* ScatterdCreditCardsView.swift in Sources */,
+				EBEE14A827EA7ABE000B94A8 /* Color+Extension.swift in Sources */,
+				EBEE14BC27EA8C63000B94A8 /* CategoryView.swift in Sources */,
+				EBEE149927EA7534000B94A8 /* DrahimSplashApp.swift in Sources */,
+				EBEE14AF27EA7C2B000B94A8 /* CreditCardView.swift in Sources */,
+				EBEE14AA27EA7B43000B94A8 /* Image+Extension.swift in Sources */,
+				EBEE14B827EA893A000B94A8 /* Constants.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin XCBuildConfiguration section */
+		EBEE14A127EA7535000B94A8 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++17";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.4;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		EBEE14A227EA7535000B94A8 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++17";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.4;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		EBEE14A427EA7535000B94A8 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"DrahimSplash/Preview Content\"";
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = DrahimSplash/Info.plist;
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UIMainStoryboardFile = "Launch Screen";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = hajjar.DrahimSplash;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		EBEE14A527EA7535000B94A8 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"DrahimSplash/Preview Content\"";
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = DrahimSplash/Info.plist;
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UIMainStoryboardFile = "Launch Screen";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = hajjar.DrahimSplash;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		EBEE149027EA7534000B94A8 /* Build configuration list for PBXProject "DrahimSplash" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				EBEE14A127EA7535000B94A8 /* Debug */,
+				EBEE14A227EA7535000B94A8 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		EBEE14A327EA7535000B94A8 /* Build configuration list for PBXNativeTarget "DrahimSplash" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				EBEE14A427EA7535000B94A8 /* Debug */,
+				EBEE14A527EA7535000B94A8 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = EBEE148D27EA7534000B94A8 /* Project object */;
+}
